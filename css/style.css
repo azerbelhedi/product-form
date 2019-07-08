@@ -1,0 +1,64 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body{
+    height : 100vh ; 
+    overflow: hidden;
+}
+
+#my-form{
+    height : 90vh ;
+    width : 400px ;
+    margin-left : auto ;
+    margin-right: auto ;
+    padding-left : 15px ;
+    box-shadow: 1px 1px 5px black ;
+    margin-top : 30px ;
+}
+
+.input-block > input , label {
+    display: block ;
+    height : 40px ;
+    border : none ;
+    font-size: 25px ;
+    font-family: cursive ;
+    font-weight: bolder ;
+    width : 90% ;
+    padding-left: 15px ;
+    color: white ;
+    text-shadow: 1px 1px 2px rgb(46, 21, 21) ;
+}
+
+.input-block{
+    margin-bottom : 20px ;
+}
+
+@media only screen and (max-width : 400px){
+    #my-form{
+        background-color : yellow ;
+        width : 100% ;
+    }
+    
+}
+
+.input-block input{
+    background-color: rgb(37, 37, 37) ;
+    box-shadow: 1px 1px 5px rgb(29, 5, 5) ;
+}
+
+.button{
+    width : 95% ;
+    height : 40px ;
+    background-color: rgb(37, 37, 37) ;
+    border : none ;
+    box-shadow: 1px 1px 5px rgb(29, 5, 5) ;
+    color : white ;
+    font-weight: bold ;
+    font-family: cursive ;
+}
+
+.button:hover{
+    cursor: pointer;
+}
